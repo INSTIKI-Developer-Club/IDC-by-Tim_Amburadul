@@ -1,0 +1,88 @@
+.main-header{
+    background-color: #A01C20;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 100;
+}
+.header-img{
+    width: 150px;
+    margin: 1px 15px;
+    position: absolute;
+}
+nav{
+    position: absolute;
+    right: 0;
+    display: flex;
+    margin: 8px 20px;
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    float: left;
+    color: white;
+}
+a:hover{
+    color: #5e0e12;
+}
+body{
+    background-image: url(assets/wave.svg);
+    background-size: 280%;
+    background-repeat: no-repeat;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto 20px;
+    padding: 20px;
+    width: 1000px;
+}
+.text h4{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+.text p{
+    width: 450px;
+    line-height: 1.8;
+    text-indent: 25px;
+    text-align: justify;
+    font-size: 14px;
+}
+.text2{
+    text-align: center;
+    width: 1000px;
+}
+.text2 h4{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.text2 p{
+    line-height: 1.8;
+    text-indent: 25px;
+    font-size: 14px;
+}
+.home2{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.box-img{
+    background-color: #5e0e12;
+}
