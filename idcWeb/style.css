@@ -1,92 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-*{
-    font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.main-header{
-    background-color: #A01C20;
-    padding-left: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-    z-index: 100;
+.main-header {
+  background-color: #a01c20;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 100;
 }
-.header-img{
-    width: 150px;
-    margin: 1px 15px;
-    position: absolute;
+.header-img {
+  width: 150px;
+  margin: 1px 15px;
+  position: absolute;
 }
-nav{
-    position: absolute;
-    right: 0;
-    display: flex;
-    margin: 8px 20px;
+nav {
+  position: absolute;
+  right: 0;
+  display: flex;
+  margin: 8px 20px;
 }
-a{
-    text-decoration: none;
-    padding: 15px;
-    float: left;
-    color: white;
+a {
+  text-decoration: none;
+  padding: 15px;
+  float: left;
+  color: white;
 }
-a:hover{
-    color: #5e0e12;
+a:hover {
+  color: #5e0e12;
 }
-body{
-    background-image: url(assets/wave.svg);
-    background-size: 280%;
-    background-repeat: no-repeat;
+body {
+  background-image: url(assets/wave.svg);
+  background-size: 280%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
-.home{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 80px;
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
 }
-.text{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px auto 20px;
-    padding: 20px;
-    width: 1000px;
+.text {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto 20px;
+  padding: 20px;
+  width: 1000px;
 }
-.text h4{
-    padding: 0;
-    margin: 0;
-    font-size: 30px;
+.text h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
 }
-.text p{
-    width: 450px;
-    line-height: 1.8;
-    text-indent: 25px;
-    text-align: justify;
-    font-size: 14px;
+.text p {
+  width: 450px;
+  line-height: 1.8;
+  text-indent: 25px;
+  text-align: justify;
+  font-size: 17px;
 }
-.text2{
-    text-align: center;
-    width: 1000px;
+.text2 {
+  text-align: center;
+  width: 100%;
 }
-.text2 h4{
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
+.text2 h4 {
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  font-size: 20px;
 }
-.text2 p{
-    line-height: 1.8;
-    text-indent: 25px;
-    font-size: 14px;
+.text2 p {
+  margin: auto;
+  width: 700px;
+  line-height: 1.8;
+  text-indent: 25px;
+  font-size: 20px;
 }
-.home2{
-    margin-left: 150px;
-    margin-top: 80px;
+.home2 {
+  /* margin-left: 150px; */
+  width: 100%;
+  margin-top: 80px;
 }
-.box-container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
 }
-.box-img{
-    background-color: #5e0e12;
+.home2 {
+  margin-top: 200px;
+}
+#activity {
+  text-align: center;
+  margin-top: 200px;
+}
+#activity h1 {
+  margin-bottom: 40px;
+}
+.box-container {
+  display: flex;
+}
+.box {
+  background-color: rgba(160, 28, 32, 0.5);
+
+  margin: 10px;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.box-img img {
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 400px;
+  background-color: #5e0e12;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  height: 100px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Links */
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
 }
